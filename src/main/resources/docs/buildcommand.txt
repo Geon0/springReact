@@ -1,0 +1,7 @@
+빌드 방법 :
+
+home -> gradlew build 실행
+
+build/libs jar 파일 생성
+
+java -jar "jar파일 이름"
