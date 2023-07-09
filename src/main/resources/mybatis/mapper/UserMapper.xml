@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.springreact.model.dao.UserMapper">
+<mapper namespace="com.example.springreact.dao.userMapper">
 
     <select id="getAllDataList" resultType="com.example.springreact.dto.user">
         SELECT * FROM bl_user;
